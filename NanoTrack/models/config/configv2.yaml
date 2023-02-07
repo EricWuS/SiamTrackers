@@ -69,8 +69,13 @@ TRAIN:
 DATASET:
     NAMES:
     - 'GOT'
+    - 'VID'
+    - 'YOUTUBEBB'
+    - 'COCO'
+    - 'DET'
+    - 'LASOT'
 
-    VIDEOS_PER_EPOCH: 100000 
+    VIDEOS_PER_EPOCH: 400000 
 
     TEMPLATE:
         SHIFT: 4 
